@@ -1,0 +1,33 @@
+section#contact-info {
+	font-size: .8em
+}
+
+section.job {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: #e9e5dc
+}
+
+ul#accomplishments {
+	font-size: .8em;
+}
+
+/* The "cascading" bit of CSS refers to the priority of values and attributes
+within the code of a given document
+
+A psuedo-element can be used to style the first letter or line of an element,
+or insert content before of after the content of an element*/
+
+h3::after{
+	content: url(exclaimation.gif);
+}
+/* This psuedo code will insert an exclaimation point after all "h3" elements*/
+
+/* Content within nested elements can be styled with the "nth child" selector.
+For example:*/
+
+
